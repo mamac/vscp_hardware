@@ -1,0 +1,12 @@
+eeschema (2013-may-18)-stable  >> Creation date: Mon 27 Oct 2014 09:11:36 PM CET
+#Cmp ( order = Reference )
+| P1         Sub-D 9     
+| U1         RJ45_DUAL   
+#End Cmp
+
+#Cmp ( order = Value )
+| Sub-D 9      P1        
+| RJ45_DUAL    U1        
+#End Cmp
+
+#End List
