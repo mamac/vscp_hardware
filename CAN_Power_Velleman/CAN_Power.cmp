@@ -1,8 +1,15 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sun 26 Oct 2014 10:08:16 PM CET
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Tue 28 Oct 2014 09:04:05 PM CET
 
 BeginCmp
 TimeStamp = /544C2F9D;
 Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = bornier3;
+EndCmp
+
+BeginCmp
+TimeStamp = /544FF6DC;
+Reference = K2;
 ValeurCmp = CONN_3;
 IdModule  = bornier3;
 EndCmp
@@ -26,13 +33,6 @@ TimeStamp = /544C2F70;
 Reference = P3;
 ValeurCmp = CONN_1;
 IdModule  = 1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = /544C2F30;
-Reference = P4;
-ValeurCmp = CONN_2;
-IdModule  = bornier2;
 EndCmp
 
 BeginCmp

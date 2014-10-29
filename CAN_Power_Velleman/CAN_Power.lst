@@ -1,10 +1,10 @@
-eeschema (2013-may-18)-stable  >> Creation date: Sun 26 Oct 2014 10:08:01 PM CET
+eeschema (2013-may-18)-stable  >> Creation date: Tue 28 Oct 2014 09:03:45 PM CET
 #Cmp ( order = Reference )
 | K1         CONN_3      
+| K2         CONN_3      
 | P1         CONN_1      
 | P2         CONN_1      
 | P3         CONN_1      
-| P4         CONN_2      
 | P5         CONN_4      
 | P6         CONN_1      
 | P7         CONN_1      
@@ -15,10 +15,10 @@ eeschema (2013-may-18)-stable  >> Creation date: Sun 26 Oct 2014 10:08:01 PM CET
 
 #Cmp ( order = Value )
 | CONN_3       K1        
+| CONN_3       K2        
 | CONN_1       P1        
 | CONN_1       P2        
 | CONN_1       P3        
-| CONN_2       P4        
 | CONN_4       P5        
 | CONN_1       P6        
 | CONN_1       P7        

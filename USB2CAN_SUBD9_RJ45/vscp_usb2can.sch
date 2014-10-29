@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "27 oct 2014"
+Date "28 oct 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -78,14 +78,7 @@ Wire Wire Line
 	5500 3500 5000 3500
 Wire Wire Line
 	5000 3500 5000 4350
-Wire Wire Line
-	4400 3350 4400 5300
 Connection ~ 5400 3850
-Wire Wire Line
-	6500 4700 6500 5300
-Wire Wire Line
-	6500 5300 4400 5300
-Connection ~ 4400 4700
 Wire Wire Line
 	6200 3950 6200 4350
 Wire Wire Line
@@ -123,17 +116,6 @@ Wire Wire Line
 	5900 3150 5600 3150
 Connection ~ 5600 3150
 $Comp
-L CONN_4 P1
-U 1 1 544EA50F
-P 5450 2450
-F 0 "P1" V 5400 2450 50  0000 C CNN
-F 1 "Sub-D 9" V 5500 2450 50  0000 C CNN
-F 2 "" H 5450 2450 60  0000 C CNN
-F 3 "" H 5450 2450 60  0000 C CNN
-	1    5450 2450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L GND #PWR01
 U 1 1 544D715A
 P 6450 4150
@@ -148,8 +130,17 @@ Wire Wire Line
 	6450 4150 6450 3850
 Wire Wire Line
 	6450 3850 5400 3850
-Wire Wire Line
-	5300 2800 5300 3350
-Wire Wire Line
-	5300 3350 4400 3350
+NoConn ~ 4400 4700
+NoConn ~ 6500 4700
+$Comp
+L CONN_3 K1
+U 1 1 544FFEF3
+P 5500 2450
+F 0 "K1" V 5450 2450 50  0000 C CNN
+F 1 "CONN_3" V 5550 2450 40  0000 C CNN
+F 2 "" H 5500 2450 60  0000 C CNN
+F 3 "" H 5500 2450 60  0000 C CNN
+	1    5500 2450
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

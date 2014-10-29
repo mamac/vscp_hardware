@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mon 27 Oct 2014 09:11:53 PM CET
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Tue 28 Oct 2014 09:39:51 PM CET
 
 BeginCmp
-TimeStamp = /544EA50F;
-Reference = P1;
-ValeurCmp = Sub-D 9;
-IdModule  = PIN_ARRAY_4x1;
+TimeStamp = /544FFEF3;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
